@@ -3,7 +3,7 @@
   // get jquery param from the query string.
   var jQueryVersion = location.search.match(/[?&]jquery=(.*?)(?=&|$)/)
 
-  // If a version was specified, use that version from or vendor folder
+  // If a version was specified, use that version from our vendor folder
   if (jQueryVersion) {
     path = 'vendor/jquery-' + jQueryVersion[1] + '.min.js'
   }
